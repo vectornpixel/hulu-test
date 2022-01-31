@@ -1,0 +1,26 @@
+.App {
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: linear-gradient(#fff 10%, #f1f1f1 98%, #ccc);
+  padding: 0 20px 20px;
+  font-family: monospace;
+}
+
+body {
+  background: #def;
+}
+.container {
+  display: flex;
+}
+.user-photo {
+  width: 100px;
+}
+.user-info {
+  text-align: left;
+  width: 300px;
+}
+
+.user-location {
+  flex: 1 1 auto;
+}
